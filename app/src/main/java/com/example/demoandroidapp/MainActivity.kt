@@ -18,8 +18,6 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        Thread.sleep(3000)
-        installSplashScreen()
         enableEdgeToEdge()
         setContent {
             DemoAndroidAppTheme {
