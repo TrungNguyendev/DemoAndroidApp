@@ -10,7 +10,7 @@ android {
     defaultConfig {
         applicationId = "com.example.demoandroidapp"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -19,7 +19,6 @@ android {
             useSupportLibrary = true
         }
     }
-
     buildTypes {
         release {
             isMinifyEnabled = false
