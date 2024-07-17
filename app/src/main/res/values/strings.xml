@@ -6,4 +6,13 @@
 
     <string name="don_t_have_an_account_register">Don\'t have an account? Register</string>
     <string name="or_n_login_register">Or \n Login/Register</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="user_name">User Name</string>
+    <string name="email">Email</string>
+    <string name="number_phone">Number Phone</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="referral_code">Referral Code</string>
+    <string name="register_now">Register Now</string>
+    <string name="you_have_an_account_login">You have an account? Login</string>
 </resources>
