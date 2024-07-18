@@ -1,14 +1,13 @@
 <resources>
     <string name="app_name">DemoAndroidApp</string>
     <string name="login">Login</string>
-    <string name="password">Password</string>
     <string name="forgot_password">Forgot Password?</string>
 
     <string name="don_t_have_an_account_register">Don\'t have an account? Register</string>
     <string name="or_n_login_register">Or \n Login/Register</string>
     <string name="register">Register</string>
     <string name="full_name">Full Name</string>
-    <string name="user_name">User Name</string>
+    <string name="user_name"><font size="14">User Name</font></string>
     <string name="email">Email</string>
     <string name="number_phone">Number Phone</string>
     <string name="confirm_password">Confirm Password</string>
@@ -17,5 +16,12 @@
     <string name="you_have_an_account_login">You have an account? Login</string>
     <string name="verify_number">Verify Phone Number</string>
     <string name="submit">Submit</string>
-    <string name="resend">Resend</string>
+    <string name="resend"><font size="14">Resend</font></string>
+    <string name="text"><font size="14">Text></font></string>
+    <string name="phone_number"><font size="14">Phone Number</font></string>
+    <string name="ok"><font size="14">OK></font></string>
+    <string name="you_are_resetting_your_password_n_please_enter_otp_code_we_sent_to_your_sms">You are resetting your password \n Please enter OTP code we sent to your SMS</string>
+    <string name="enter_new_password"><font size="14">Enter new password</font></string>
+    <string name="conform_password"><font size="14">Conform Password</font></string>
+    <string name="password"><font size="14">Password</font></string>
 </resources>

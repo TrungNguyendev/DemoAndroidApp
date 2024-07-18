@@ -26,6 +26,7 @@ class RegisterActivity : AppCompatActivity() {
         //View binding
         binding = ActivityRegisterBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
         binding.btnRegister.setOnClickListener{
             val intent = Intent(this@RegisterActivity,VerifyPhoneActivity::class.java)
             startActivity(intent)

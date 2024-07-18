@@ -1,6 +1,7 @@
 package com.example.demoandroidapp
 
 import android.annotation.SuppressLint
+import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
@@ -15,24 +16,30 @@ import com.example.demoandroidapp.databinding.ActivityRegisterBinding
 class LoginActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
 
-    //lateinit var binding: ActivityLoginBinding
+    lateinit var binding: ActivityLoginBinding
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
-
-//        binding = ActivityLoginBinding.inflate(layoutInflater)
-//        setContentView(binding.root)
         Thread.sleep(3000)
         installSplashScreen()
         enableEdgeToEdge()
-        setContentView(R.layout.activity_login)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.login_activity)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+//        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.login_activity)) { v, insets ->
+//            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+//            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+//            insets
+//        }
+        binding = ActivityLoginBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        onClick(binding.btnLogin)
+
+        binding.twForgotPassword.setOnClickListener{
+            val intent = Intent(this,ResetPasswordActivity::class.java)
+            startActivity(intent)
         }
-        val btnLogin = findViewById<View>(R.id.btn_login)
-        onClick(btnLogin)
+        binding.twRegisterLogin.setOnClickListener{
+            val intent = Intent(this,RegisterActivity::class.java)
+            startActivity(intent)
+        }
     }
     private fun onClick(button: View) {
         button.setOnClickListener{
