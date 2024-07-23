@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.demoandroidapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.demoandroidapp.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.demoandroidapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_laundry_pick_up"
+        android:name="com.example.demoandroidapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/laundry_pick_upp"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_online_shopping"
+        android:name="com.example.demoandroidapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/online_shopping"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_top_up"
+        android:name="com.example.demoandroidapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/top_up"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_orders"
+        android:name="com.example.demoandroidapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/orders"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_rewards"
+        android:name="com.example.demoandroidapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/rewards"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_my_cards"
+        android:name="com.example.demoandroidapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/my_cards"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_pricing"
+        android:name="com.example.demoandroidapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.example.demoandroidapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/setting"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_contact_us"
+        android:name="com.example.demoandroidapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/contact_us"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_log_out"
+        android:name="com.example.demoandroidapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/log_out"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>

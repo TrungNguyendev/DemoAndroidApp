@@ -43,7 +43,7 @@ class LoginActivity : AppCompatActivity() {
     }
     private fun onClick(button: View) {
         button.setOnClickListener{
-            val intent = Intent(this@LoginActivity,RegisterActivity::class.java)
+            val intent = Intent(this@LoginActivity,MenuActivity::class.java)
             startActivity(intent)
         }
     }

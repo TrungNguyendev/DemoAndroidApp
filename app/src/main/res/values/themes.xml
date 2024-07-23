@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="Theme.DemoAndroidApp" parent="Theme.AppCompat.Light.NoActionBar" />
 
     <style name="Theme.App.SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
@@ -7,4 +8,13 @@
         <item name="postSplashScreenTheme">@style/Theme.DemoAndroidApp</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/logoapp</item>
     </style>
+
+    <style name="Theme.DemoAndroidApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.DemoAndroidApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.DemoAndroidApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

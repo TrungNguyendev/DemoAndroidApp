@@ -24,4 +24,35 @@
     <string name="enter_new_password"><font size="14">Enter new password</font></string>
     <string name="conform_password"><font size="14">Conform Password</font></string>
     <string name="password"><font size="14">Password</font></string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="gmail">xuantrungsns@gmail.com</string>
+
+    <string name="laundry_pick_upp">Laundry Pick Up</string>
+    <string name="online_shopping">Online Shopping</string>
+    <string name="top_up">Top Up</string>
+    <string name="orders">Orders</string>
+    <string name="rewards">Rewards</string>
+    <string name="my_cards">My Cards</string>
+    <string name="pricing">Pricing</string>
+    <string name="setting">Setting</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="log_out">Log out</string>
+    <string name="what_do_you_like_to_do_today">What do you like to do today?</string>
+    <string name="drop_off">Drop Off</string>
+    <string name="active_cards">Active Cards</string>
+    <string name="s_25_30">S$25.30</string>
+    <string name="pick_up">Pick Up</string>
+    <string name="shop">Shop</string>
+    <string name="_2300_more_points_to_gold">2300 more points to Gold</string>
+    <string name="active_orders_4">Active Orders (4)</string>
 </resources>
