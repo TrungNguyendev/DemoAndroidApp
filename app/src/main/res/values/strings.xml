@@ -85,4 +85,6 @@
     <string name="old_password">Old Password</string>
     <string name="new_password">New Password</string>
     <string name="confirm_new_password">Confirm new password</string>
+    <string name="classification">Classification</string>
+    <string name="search">Search</string>
 </resources>
