@@ -87,4 +87,7 @@
     <string name="confirm_new_password">Confirm new password</string>
     <string name="classification">Classification</string>
     <string name="search">Search</string>
+    <string name="group">Group</string>
+    <string name="everyday_pink">Everyday Pink</string>
+    <string name="add_to_cart">Add to cart</string>
 </resources>
