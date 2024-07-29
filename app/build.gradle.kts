@@ -36,6 +36,8 @@ android {
         jvmTarget = "1.8"
     }
     buildFeatures {
+        //noinspection DataBindingWithoutKapt
+        dataBinding = true
         compose = true
         viewBinding = true
     }
@@ -78,4 +80,6 @@ dependencies {
 
     implementation(libs.androidx.core.splashscreen)
     implementation(libs.design)
+
+    implementation (libs.material)
 }

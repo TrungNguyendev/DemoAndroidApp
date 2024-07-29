@@ -13,6 +13,7 @@
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cv_profile"
         android:layout_width="100dp"
         android:layout_height="100dp"
         app:cardCornerRadius="150dp"
