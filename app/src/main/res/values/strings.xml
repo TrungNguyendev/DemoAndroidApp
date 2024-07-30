@@ -90,4 +90,12 @@
     <string name="group">Group</string>
     <string name="everyday_pink">Everyday Pink</string>
     <string name="add_to_cart">Add to cart</string>
+    <string name="browse">Browse</string>
+    <string name="my_rewards">My rewards</string>
+    <string name="membership_tier_sliver">Membership Tier: Sliver</string>
+    <string name="_2300">2300</string>
+    <string name="vail_till_5_december_2024">Vail till 5 December 2024</string>
+    <string name="free_5_items">Free 5 items</string>
+    <string name="_200">200</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur">Lorem ipsum dolor sit amet, consectetur</string>
 </resources>

@@ -21,7 +21,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="80dp"
         app:contentPadding="1dp"
-        android:foreground="@drawable/boder">
+        android:foreground="@drawable/border">
         <ImageView
             android:layout_width="70dp"
             android:layout_height="70dp"
