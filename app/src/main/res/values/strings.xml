@@ -115,4 +115,10 @@
     <string name="learn_more">Learn more</string>
     <string name="tier_progress">Tier Progress</string>
     <string name="_2300_more_points_to_gold_unlock">2300 more points to Gold unlock</string>
+    <string name="earned_points">Earned Points</string>
+    <string name="spent_points">Spent Points</string>
+    <string name="order_no_065197556865">Order No: 065197556865</string>
+    <string name="_18_28_27_nov_2018">18:28 27 Nov, 2018</string>
+    <string name="laundry_order">Laundry Order</string>
+    <string name="_20_points">+ 20 points</string>
 </resources>
