@@ -98,4 +98,21 @@
     <string name="free_5_items">Free 5 items</string>
     <string name="_200">200</string>
     <string name="lorem_ipsum_dolor_sit_amet_consectetur">Lorem ipsum dolor sit amet, consectetur</string>
+    <string name="refer_a_friend">Refer a friend</string>
+    <string name="jun_01_2018_dec_31_2019">Jun 01,2018 Dec-31,2019</string>
+    <string name="document">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor quam faucibus ornare imperdiet. Aliquam vel tempus risus. Vivamus consectetur placerat congue. Fusce faucibus dolor neque, ut congue erat tincidunt non. Aenean fringilla purus ac sapien scelerisque scelerisque. Integer ac sollicitudin erat, et aliquam erat. Nunc vitae hendrerit mauris. Suspendisse erat odio, congue nec dapibus et, pretium vitae ante. In eget feugiat arcu. Nam non lorem quis risus commodo bibendum quis id leo. Nam tincidunt enim sit amet massa mollis pellentesque a vitae enim. Maecenas egestas mi lobortis tellus pulvinar, a ultricies enim tincidunt. Pellentesque non malesuada felis. Nullam tempus faucibus sem.</string>
+    <string name="user">User</string>
+    <string name="sliver">Sliver</string>
+    <string name="redeemable_points">Redeemable Points</string>
+    <string name="points_history">Points History</string>
+    <string name="how_do_i_earn_points">How do I earn points?</string>
+    <string name="_5">5</string>
+    <string name="detail">Detail</string>
+    <string name="member">Member</string>
+    <string name="gold">Gold</string>
+    <string name="platinum">Platinum</string>
+    <string name="gold_privileges">Gold Privileges</string>
+    <string name="learn_more">Learn more</string>
+    <string name="tier_progress">Tier Progress</string>
+    <string name="_2300_more_points_to_gold_unlock">2300 more points to Gold unlock</string>
 </resources>
